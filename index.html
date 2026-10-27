@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aadya Bhandari | Personal Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="logo" href="#home">Aadya</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+        Menu
+      </button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <p class="eyebrow">Personal Profile</p>
+      <h1>Hello, I am Aadya Bhandari</h1>
+      <p class="lede">
+        An aspiring technology professional currently pursuing a Bachelor’s degree in Technology,
+        passionate about acquiring new skills that align with my interests and help me discover
+        the ideal career path.
+      </p>
+      <p>
+        <a class="button" href="#projects">View projects</a>
+        <a class="button button-secondary" href="#about">About me</a>
+      </p>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>
+        An aspiring technology professional pursuing a Bachelor’s degree in Technology, 
+        eager to learn new skills and explore diverse areas of technology to identify 
+        my ideal career path.
+      </p>
+      <p>
+        Currently building a strong foundation in Data Structures and Algorithms, 
+        Web Development, and Database Management Systems (DBMS), while applying my 
+        knowledge through hands-on projects to develop problem-solving skills, 
+        write clean code, and improve my ability to debug and build reliable applications.
+      </p>
+      <ul class="facts">
+        <li><strong>Location:</strong> Jaipur, Rajasthan, India</li>
+        <li><strong>Role:</strong> B.Tech student</li>
+        <li><strong>Email:</strong> aadya.25bcon1869@jecrcu.edu.in</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <p>A list of skills I am building and using in my work.</p>
+      <ul class="skill-list">
+        <li>Data Structures &amp; Algorithms</li>
+        <li>Web Development</li>
+        <li>DBMS</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <form class="project-search" role="search" action="#" method="get">
+        <label class="project-search-label" for="project-search">Search projects by name or technology</label>
+        <input
+          id="project-search"
+          type="search"
+          name="q"
+          placeholder="Search by name or technology, for example Python, Quiz, or Book"
+          autocomplete="off"
+        >
+      </form>
+      <p>Selected work from my coursework and practice.</p>
+      <p id="project-search-empty" class="project-search-empty" hidden>No projects match that search.</p>
+      <article class="project-card" data-search="python programs collection python programming">
+        <h3>Python Programs Collection</h3>
+        <p>
+          A collection of Python programs used to practice core programming concepts,
+          problem-solving, and writing clear, working code.
+        </p>
+        <ul class="project-tags">
+          <li>Python</li>
+        </ul>
+        <p>
+          <a
+            class="project-link"
+            href="https://github.com/aadyabhandari03/python-basics-25bcon1869"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View on GitHub
+          </a>
+        </p>
+      </article>
+      <article class="project-card" data-search="messy python code improvement python refactoring">
+        <h3>Messy Python Code Improvement</h3>
+        <p>
+          Refactored messy Python code to improve readability, structure, and
+          maintainability while keeping the original behavior.
+        </p>
+        <ul class="project-tags">
+          <li>Python</li>
+        </ul>
+        <p>
+          <a class="project-link" href="https://github.com/aadyabhandari03/messy-code" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        </p>
+      </article>
+      <article class="project-card" data-search="bug fixing using cursor ai python cursor">
+        <h3>Bug Fixing Using Cursor AI</h3>
+        <p>
+          Practiced finding and fixing bugs with Cursor AI as a coding assistant,
+          focusing on diagnosing issues and verifying the corrected result.
+        </p>
+        <ul class="project-tags">
+          <li>Python</li>
+          <li>Cursor AI</li>
+        </ul>
+        <p>
+          <a class="project-link" href="https://github.com/aadyabhandari03/buggy-python-code" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        </p>
+      </article>
+      <article class="project-card" data-search="interactive quiz application html css javascript web quiz">
+        <h3>Interactive Quiz Application</h3>
+        <p>
+          An interactive quiz application that presents questions, collects answers,
+          and gives feedback to the user.
+        </p>
+        <ul class="project-tags">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+        <p>
+          <a class="project-link" href="https://github.com/aadyabhandari03/quiz" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        </p>
+      </article>
+      <article class="project-card" data-search="book reading list application html css javascript book">
+        <h3>Book Reading List Application</h3>
+        <p>
+          An application for keeping a personal reading list, including books to read
+          and titles already completed.
+        </p>
+        <ul class="project-tags">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+        <p>
+          <a class="project-link" href="https://github.com/aadyabhandari03/reading-list-app" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        </p>
+      </article>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>
+        You can reach me at
+        <a href="mailto:aadya.25bcon1869@jecrcu.edu.in">Email</a>
+        or visit
+        <a href="https://github.com/aadyabhandari03" target="_blank" rel="noopener noreferrer">GitHub</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      &copy; <span id="year"></span> Aadya Bhandari. All rights reserved.
+    </p>
+  </footer>
+  <button id="themeToggle" type="button" aria-label="Switch to dark mode">
+    <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M21 14.5A8.5 8.5 0 1 1 9.5 3 7 7 0 0 0 21 14.5z"></path>
+    </svg>
+    <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <circle cx="12" cy="12" r="4"></circle>
+      <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path>
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
