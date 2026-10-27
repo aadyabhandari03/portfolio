@@ -28,7 +28,6 @@ The portfolio assessment calls for the following features:
 - Light and dark theme toggle.
 - Responsive layout for desktop and mobile screens.
 - Deployment through Vercel.
-> This README describes the portfolio features without claiming that unimplemented functionality is available.
 
 ## 🛠️ Technologies and Tools
 
@@ -40,7 +39,6 @@ The assessment uses the following tools and technologies:
 - Git and GitHub
 - Cursor AI
 - Vercel
-Update this list if your implementation uses additional frameworks or libraries.
 
 ## 📂 Projects
 
@@ -51,8 +49,6 @@ The assessment requires a portfolio section containing these five projects:
 3. **Bug Fixing Using Cursor AI** — A buggy program examined and corrected using Cursor AI.
 4. **Interactive Quiz Application** — A quiz application developed as part of the coursework.
 5. **Book Reading List Application** — A reading list application with an updated README that includes its deployed link.
-
-Add the correct GitHub repository and live-demo links for each project in the website's project cards.
 
 ## 🚀 Run Locally
 
